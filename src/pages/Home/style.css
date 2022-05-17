@@ -1,0 +1,84 @@
+.appbar-root {
+  background-color: #131921 !important;
+}
+
+.appbar-deliver {
+  display: flex;
+  flex-direction: column;
+}
+
+.appbar-deliver-to {
+  margin-left: 20px;
+  font-size: 10px;
+  margin-bottom: -5px;
+}
+
+.appbar-deliver-location {
+  display: flex;
+}
+
+.location-icon-root {
+  padding-top: 1px;
+}
+
+.appbar-search-area {
+  display: flex;
+}
+
+.appbar-search {
+  background-color: white;
+  border: none;
+  width: 500px;
+}
+
+.appbar-search-icon-button {
+    background-color: #FEBD69!important;
+    border-radius: 0 !important;
+    width: 50px !important;
+}
+
+.appbar-signin-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.appbar-signin {
+    font-size: 13px;
+}
+
+.account-list {
+    font-weight: 600;
+}
+
+.appbar-return-order-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.return {
+    font-size: 13px;
+}
+
+.orders {
+    font-weight: 600;
+}
+
+.appbar-cart {
+    display: flex;
+}
+
+.appbar-cart-text-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.appbar-cart-text {
+    font-size: 14px;
+    padding-top: 14px;
+    margin-top: -14px;
+    font-weight: 600;
+}
+
+.appbar-cart-icon {
+    margin-top: 6px;
+}
