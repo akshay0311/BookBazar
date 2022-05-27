@@ -1,0 +1,8 @@
+.customFilter-header {
+    display: flex;
+}
+.customFilter-header span {
+    font-size: 18px;
+    margin-top: 5px;
+    font-weight: 600;
+}

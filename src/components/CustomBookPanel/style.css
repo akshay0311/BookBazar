@@ -1,0 +1,30 @@
+.panel-root {
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.panel-image-display {
+    
+}
+
+.panel-image-display img{
+    width : 150px
+}
+
+.panel-data {
+    margin-top: 20px;
+    width: 150px;
+    text-align: left;
+    word-break: break-word;
+}
+
+.panel-title span {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.panel-meta-data span {
+    font-size: 12px;
+    color : #878787
+}

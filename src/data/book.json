@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future",
+    "author": "Ashlee Vance",
+    "publisher": "HarperCollins Publishers",
+    "cost_price": "17$",
+    "discounted_price": "10$",
+    "book_thumbnail": ""
+  },
+  {
+    "id": 2,
+    "title": "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future",
+    "author": "Ashlee Vance",
+    "publisher": "HarperCollins Publishers",
+    "cost_price": "17$",
+    "discounted_price": "10$",
+    "book_thumbnail": ""
+  },
+  {
+    "id": 3,
+    "title": "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future",
+    "author": "Ashlee Vance",
+    "publisher": "HarperCollins Publishers",
+    "cost_price": "17$",
+    "discounted_price": "10$",
+    "book_thumbnail": ""
+  },
+  {
+    "id": 4,
+    "title": "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future",
+    "author": "Ashlee Vance",
+    "publisher": "HarperCollins Publishers",
+    "cost_price": "17$",
+    "discounted_price": "10$",
+    "book_thumbnail": ""
+  }
+]
