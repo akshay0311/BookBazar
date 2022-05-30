@@ -1,0 +1,32 @@
+[{
+    "name": "Categories",
+    "selected": false,
+    "options": [
+        {
+            "name" : "Fiction",
+            "selected" : false
+        },
+        {
+            "name" : "Non-Fiction",
+            "selected" : false
+        }
+    ]
+},
+{
+    "name" : "Discount",
+    "selected" : false,
+    "options" : [
+        {
+            "name" : "90% or more",
+            "selected" : false
+        },
+        {
+            "name" : "80% or more",
+            "selected" : false
+        },
+        {
+            "name" : "70% or more",
+            "selected" : false
+        }
+    ]
+}]

@@ -97,7 +97,7 @@ const CustomAppBar = () => {
             <div className="return">Returns</div>
             <div className="orders">& Orders</div>
           </Box>
-          <Box sx={{ ml: 4 }} className="appbar-cart">
+          <Box sx={{ ml: 4, flexGrow : 1 }} className="appbar-cart">
             <AddShoppingCartIcon
               fontSize="large"
               className="appbar-cart-icon"
@@ -107,7 +107,7 @@ const CustomAppBar = () => {
               <div className="appbar-cart-text">Cart</div>
             </div>
           </Box>
-          <Box sx={{ flexGrow : 1, ml: 3 }} className = "appbar-settings">
+          <Box sx={{ mr : 2}} className = "appbar-settings">
               <SettingsIcon fontSize="small"/>
               <span>Settings</span>
           </Box>

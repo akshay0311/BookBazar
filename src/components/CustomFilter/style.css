@@ -1,8 +1,45 @@
+.customFilter-root {
+    background-color: #F8F8F8;
+}
 .customFilter-header {
     display: flex;
+}
+.customFilter-header {
+    border-bottom: 1px solid lightgray;
+    padding: 2px;
 }
 .customFilter-header span {
     font-size: 18px;
     margin-top: 5px;
     font-weight: 600;
+}
+.customFilter-body {
+    display: flex;
+    flex-direction: column;
+    padding-left: 14px;
+    padding-top : 14px;
+}
+
+.customFilter-item {
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.customFilter-item > div {
+    padding: 5px;
+}
+
+.customFilter-item span {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+.customFilter-item-icon {
+    float: right;
+}
+
+.customFilter-item-option {
+    display: flex;
+    flex-direction: column;
 }

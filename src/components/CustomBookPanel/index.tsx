@@ -17,7 +17,7 @@ const CustomBookPanel = (props: ICustomBookPanel) => {
       <div className="panel-image-display">
         <img
           src="https://m.media-amazon.com/images/I/91jwRwzDM0L._AC_UY327_FMwebp_QL65_.jpg"
-          alt = "book_thumbnail"
+          alt="book_thumbnail"
         />
       </div>
       <div className="panel-data">
@@ -27,6 +27,17 @@ const CustomBookPanel = (props: ICustomBookPanel) => {
         <div className="panel-meta-data">
           <span>by {author}</span> <span>|</span>{" "}
           <span>Sold by: {publisher}</span>
+        </div>
+        <div className="panel-rating">
+          <span className="fa fa-star checked"></span>
+          <span className="fa fa-star checked"></span>
+          <span className="fa fa-star checked"></span>
+          <span className="fa fa-star"></span>
+          <span className="fa fa-star"></span>
+        </div>
+        <div className="panel-price">
+            <span className="panel-price-dollar">$</span>
+            <span className="panel-price-price">9.55</span>
         </div>
       </div>
     </div>

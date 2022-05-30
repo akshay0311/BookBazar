@@ -4,6 +4,11 @@
     align-items: center;
 }
 
+.panel-root:hover{
+    cursor: pointer;
+    background-color: white;
+}
+
 .panel-image-display {
     
 }
@@ -27,4 +32,25 @@
 .panel-meta-data span {
     font-size: 12px;
     color : #878787
+}
+
+.panel-rating {
+    margin-top: 10px;
+}
+
+.panel-rating .checked{
+    color: orange;
+}
+
+.panel-price {
+    display: flex;
+    margin-top: 5px;
+}
+
+.panel-price-dollar {
+    font-weight: 600;
+} 
+
+.panel-price-price {
+    font-size: 22px;
 }
