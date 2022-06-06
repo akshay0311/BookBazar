@@ -1,0 +1,76 @@
+.detail-grid-container {
+    background-color: white;
+    width : 95%;
+    margin : auto;
+    display: grid;
+    padding-top: 20px;
+    grid-template-columns: 35% 65%;
+}
+
+.detail-grid-item-1 {
+    padding: 20px;
+}
+
+.detail-grid-item-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.detail-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.detail-price {
+    display: flex;
+}
+
+.detail-discount-price-dollar {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.detail-discount-price {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.detail-cost-price {
+    margin-left: 15px;
+    margin-top: 5px;
+    color: #878787;
+}
+
+.detail-discount-percentage {
+    margin-left: 15px;
+    margin-top: 5px;
+    font-weight: 600;
+    color: #ff9900;
+}
+
+.detail-rating {
+    display: flex;
+    margin-top: 10px;
+}
+
+.detail-rating-tag {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background-color: #ff9900;
+    padding: 5px;
+    border-radius: 12px;
+}
+
+.detail-rating-count {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.detail-rating-count span{
+    font-weight: 600;
+    color: #878787;
+    margin-left: 5px;
+}

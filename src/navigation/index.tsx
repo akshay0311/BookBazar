@@ -17,7 +17,7 @@ const Navigation = (props: INavigationProps) => {
           <Route path={Home} element={<HomeScreen />} />
           <Route path={Signup} element={<SignupScreen />} />
           <Route path={Login} element={<LoginScreen />} />
-          <Route path={Detail} element = {<DetailScreen/>}/>
+          <Route path={Detail} element = {<DetailScreen/>} />
         </Routes>
       </BrowserRouter>
     </>

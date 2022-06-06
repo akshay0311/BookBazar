@@ -28,22 +28,22 @@ const CustomFilter = () => {
       </div>
       <div className="customFilter-body">
         {
-          filterData.map((data: any) => (
-            <div className="customFilter-item">
+          filterData.map((filter: any) => (
+            <div className="customFilter-item" key = {filter.id}>
               <div>
-                <span>{data.name}</span>
+                <span>{filter.name}</span>
                 {
-                  data.selected === false ?
-                    <span className="customFilter-item-icon" onClick={() => handleFilterDropdown(data.name)}><KeyboardArrowDownIcon/></span>
+                  filter.selected === false ?
+                    <span className="customFilter-item-icon" onClick={() => handleFilterDropdown(filter.name)}><KeyboardArrowDownIcon/></span>
                     :
-                    <span className="customFilter-item-icon" onClick={() => handleFilterDropdown(data.name)}><KeyboardControlKeyIcon/></span>
+                    <span className="customFilter-item-icon" onClick={() => handleFilterDropdown(filter.name)}><KeyboardControlKeyIcon/></span>
                 }
               </div>
               <div className="customFilter-item-option">
                 {
-                  data.selected &&
-                  data.options.map((option: any) =>
-                    <div>
+                  filter.selected &&
+                  filter.options.map((option: any) =>
+                    <div key = {option.id}>
                       <Checkbox size="small" />
                       <span>{option.name}</span>
                     </div>

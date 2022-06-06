@@ -7,13 +7,14 @@ type ICustomBookPanel = {
   publisher: String;
   cost_price: String;
   discounted_price: String;
+  clickCard : () => void;
 };
 
 const CustomBookPanel = (props: ICustomBookPanel) => {
-  const { title, author, publisher, cost_price, discounted_price } = props;
+  const { title, author, publisher, cost_price, discounted_price, clickCard } = props;
 
   return (
-    <div className="panel-root">
+    <div className="panel-root" onClick={clickCard}>
       <div className="panel-image-display">
         <img
           src="https://m.media-amazon.com/images/I/91jwRwzDM0L._AC_UY327_FMwebp_QL65_.jpg"
@@ -37,7 +38,7 @@ const CustomBookPanel = (props: ICustomBookPanel) => {
         </div>
         <div className="panel-price">
             <span className="panel-price-dollar">$</span>
-            <span className="panel-price-price">9.55</span>
+            <span className="panel-price-price">{cost_price}</span>
         </div>
       </div>
     </div>

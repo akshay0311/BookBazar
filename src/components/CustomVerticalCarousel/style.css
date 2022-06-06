@@ -1,0 +1,25 @@
+.vertical-carousel-root {
+    display: flex;
+}
+
+.vertical-carousel-thumbnails {
+    width : 20%;
+}
+
+.vertical-carousel-thumbnail-inactive {
+    text-align: center;
+}
+
+.vertical-carousel-thumbnail-active {
+    border: 2px solid blue;
+    text-align: center;
+}
+
+.vertical-carousel-main-image {
+    width : 80%;
+}
+
+.vertical-carousel-thumbnail-image {
+    width: 60%;
+    height: 60%;
+}
