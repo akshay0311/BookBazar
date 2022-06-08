@@ -25,10 +25,12 @@ const CustomVerticalCarousel = (props: ICustomVerticalCarousel) => {
               (mainImage === index + 1 ? "-active" : "-inactive")
             }
             onMouseEnter={() => handleHover(thumbnail.id)}
+            key = {index}
           >
             <img
               src={thumbnail.image}
               className="vertical-carousel-thumbnail-image"
+              alt = "books"
             />
             <br />
             <br />

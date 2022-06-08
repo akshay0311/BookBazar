@@ -74,3 +74,33 @@
     color: #878787;
     margin-left: 5px;
 }
+
+.detail-specifications {
+    margin-top: 20px;
+}
+
+.detail-specification-container {
+    margin-bottom: 14px;
+}
+
+.detail-specification-key {
+    font-size: 14px;
+    color: #878787;
+}
+
+.detail-specification-value {
+    font-size: 14px;
+}
+
+.detail-post-question {
+    margin-top: 20px;
+}
+
+.detail-post-question-content span{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.detail-post-question-button {
+    float: right;
+}
